@@ -37,6 +37,14 @@ File created in the output directory
 
 ![image](https://github.com/trephygit/tcl_workshop/assets/87183382/e244314f-1245-48e4-9db1-36fb802e0b39)
 
+2. INPUT PORTS Constraints in SDC file
+   ![image](https://github.com/trephygit/tcl_workshop/assets/87183382/ea2f8507-c25a-4813-8345-625d6db0ff8b)
+   ## DAY 4
+
+   OUTPUT CONSTRAINTS in the SDC file
+   ![image](https://github.com/trephygit/tcl_workshop/assets/87183382/be7018c6-e7ed-42de-a6f2-499aafbfa5c9)
+
+
 
 
 
