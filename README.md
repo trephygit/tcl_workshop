@@ -56,7 +56,9 @@ File created in the output directory
   
    4. Hierarchy check with Error
 
+
      ![image](https://github.com/trephygit/tcl_workshop/assets/87183382/885cea07-416a-4e7b-8148-9e525ca84b99)
+
  
    5.Hierarchy check without error
 
