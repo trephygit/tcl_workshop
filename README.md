@@ -39,10 +39,29 @@ File created in the output directory
 
 2. INPUT PORTS Constraints in SDC file
    ![image](https://github.com/trephygit/tcl_workshop/assets/87183382/ea2f8507-c25a-4813-8345-625d6db0ff8b)
-   ## DAY 4
 
-   OUTPUT CONSTRAINTS in the SDC file
+## DAY 4
+
+   1. OUTPUT CONSTRAINTS in the SDC file
+      
    ![image](https://github.com/trephygit/tcl_workshop/assets/87183382/be7018c6-e7ed-42de-a6f2-499aafbfa5c9)
+
+  2. Memory design and Synthesized result in YOSYS
+
+     ![image](https://github.com/trephygit/tcl_workshop/assets/87183382/9c08b76e-cc15-4223-9876-b4bce1f315fa)
+
+  3. Synthesized netlist of memory design
+
+     ![image](https://github.com/trephygit/tcl_workshop/assets/87183382/1ac8384a-6c55-4f56-9791-1063a3ed228b)
+  
+   4. Hierarchy check with Error
+
+     ![image](https://github.com/trephygit/tcl_workshop/assets/87183382/885cea07-416a-4e7b-8148-9e525ca84b99)
+ 
+   5.Hierarchy check without error
+
+   ![image](https://github.com/trephygit/tcl_workshop/assets/87183382/45d63440-052b-4a41-99b5-3cfcbbe7b815)
+
 
 
 
