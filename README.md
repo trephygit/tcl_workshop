@@ -57,14 +57,31 @@ File created in the output directory
    4. Hierarchy check with Error
      ![image](https://github.com/trephygit/tcl_workshop/assets/87183382/b4bfd842-9246-4313-82e8-039ee1bd5f75)
 
-
-
-
-     
+ 
  
    5.Hierarchy check without error
 
    ![image](https://github.com/trephygit/tcl_workshop/assets/87183382/45d63440-052b-4a41-99b5-3cfcbbe7b815)
+
+   ## DAY 5
+   1. Synthesis stopped with error
+      ![image](https://github.com/trephygit/tcl_workshop/assets/87183382/e67f9d71-72c9-4e26-a3cc-00b28cf98948)
+
+   2. Synthesis finished successfully
+     ![image](https://github.com/trephygit/tcl_workshop/assets/87183382/63d75289-859a-49e1-abcf-795d3f562e4c)
+
+   3. Snapshot of the generated timing file
+
+   ![image](https://github.com/trephygit/tcl_workshop/assets/87183382/bbea051b-4079-43b5-9352-b5af3cdf9452)
+
+   4. Snapshot of .result file
+   ![image](https://github.com/trephygit/tcl_workshop/assets/87183382/31a6e440-a571-4a6b-9111-fef472fefb12)
+
+   5. QOR Result obtained
+
+ ![image](https://github.com/trephygit/tcl_workshop/assets/87183382/bd2368bf-ec8d-4f0d-9be8-c01990eed27b)
+
+
 
 
 
