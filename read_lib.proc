@@ -1,0 +1,40 @@
+#! bin/ tclsh
+proc read_lib {args} {
+        array set options {-late  <late_lib_path> -early <early_lib_path> -help "" }
+        foreach {switch value} [array get options] {
+#        puts " option $switch is $value"
+        }
+        while {[llength $args]} {
+ #               puts "llength is [llength $args]"
+  #              puts "lindex 0 0f \"args\" is [lindex $args 0]"
+                        switch -glob -- [lindex $args 0] {
+   #                             puts "Entering -switvh"
+                                -late {
+    #                                    puts "-local cpu"
+     #                                   puts "old args is $args"
+                                        set args [lassign $args -options (-late)]
+      #                                  puts "new args is \"$args\""
+                                        puts "set_late_celllib_fpath $options(-late)"
+                                        }
+				-early{
+#                                        puts "-local cpu"
+ #                                       puts "old args is $args"
+                                        set args [lassign $args -options (-early)]
+  #                                      puts "new args is \"$args\""
+                                        puts "set_early_celllib_fpath $options(-early)"
+                                        }
+
+                                -help {
+   #                                     puts "help"
+    #                                    puts "old args is $args"
+                                        set args [lassign $args -options (-help)]
+                                        puts "Usage:read_lib -late <late_lib_path> -early  <early_lib_path>"
+#					puts "-late <provide early lib path>"
+#					puts "-early <early lib path>"
+					}
+				default break
+                                        }
+                        }
+        }
+
+
