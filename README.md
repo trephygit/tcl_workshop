@@ -1,7 +1,10 @@
 # VSD TCL Workshop
-Synthesis will be performed using Yosys
+## TCL
+  TCL (Tool Command Language) is a programming language that is commonly used in VLSI (Very-Large-Scale Integration) to automate and script various tasks in design flow. It can be used to create scripts that automate the execution of commands in various CAD tools, such as synthesis and place-and-route tools. It can also be used to create custom scripts for tasks such as floorplanning, power analysis, and timing closure. The use of TCL allows engineers to streamline their workflows, increase productivity, and reduce human errors.
 
-STA analysis using OpenTimer
+In this workshop, Synthesis is performed using Yosys
+
+                  STA analysis using OpenTimer 1.0.5
 
 ## Day 1
 
